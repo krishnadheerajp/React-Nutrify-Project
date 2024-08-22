@@ -1,0 +1,184 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: #161616;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-start;
+}
+
+.inp{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    text-indent: 20px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.btn{
+    padding: 10px 50px;
+    border-radius: 5px;
+    background-color: #167ce0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid #167ce0;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #5395dc;
+}
+
+a{
+    color: #167ce0;
+    text-decoration: none;
+}
+
+.not-found{
+   width: 100%;
+   text-align: center;
+}
+
+.success{
+    background-color: lightgreen;
+    color: green;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.invisible-msg{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.error{
+    background-color: lightpink;
+    color: red;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+/* Track page css */
+
+.search{
+    width: 100%;
+    padding: 10px 0;
+    position: relative;
+}
+
+.track-container{
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.search-inp{
+    width: 100%;
+    height: 45px;
+    text-indent: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.search-results{
+    width: 100%;
+    padding: 10px 5px;
+    background-color: gray;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.food{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nutrient{
+    width: 50%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.food-title{
+    width: 100%;
+    text-align: center;
+}
+
+.food-img{
+    width: 200px;
+    height: 200px;
+}
+
+.track-control{
+    display: flex;
+    column-gap: 5%;
+    width: 30%;
+}
+
+.nutrient-parent{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.diet-container{
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.diet-item{
+    width: 100%;
+    padding: 20px;
+    background-color: #2f2f2f;
+}
+
+.total-nutrients{
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    column-gap: 50px;
+    background-color: rgb(83, 83, 83);
+    padding: 20px 10px;
+}
+
+.header > span, .header > span > a{
+    color: white;
+}
+
+.header > span{
+    padding: 5px;
+}
+
+.logout-btn, .search-item{
+    cursor: pointer;
+}
